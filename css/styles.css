@@ -33,16 +33,15 @@ body {
   max-width: 1024px;
   margin: 0 auto;
   place-content: center;
-  padding-inline: 30px;
+  /* padding-inline: 14px; */
   width: 100%;
 }
 .countdown__numbers,
 .countdown__text{
   display: grid;
-  grid-template-columns: repeat(4, 58px);
+  grid-template-columns: repeat(4, 70px);
   grid-auto-rows: max-content;
   height: auto;
-  /* max-height: 180px; */
   gap: 8px;
 }
 .countdown__numbers{
@@ -64,7 +63,7 @@ body {
 @media screen and (min-width: 425px){
   .countdown__numbers,
   .countdown__text{
-    grid-template-columns: repeat(4, 80px);
+    grid-template-columns: repeat(4, 100px);
   }
   .countdown__numbers{
     font-size: 6rem;
@@ -81,7 +80,7 @@ body {
 @media screen and (min-width: 768px){
   .countdown__numbers,
   .countdown__text{
-    grid-template-columns: repeat(4, 120px);
+    grid-template-columns: repeat(4, 140px);
   }
   .countdown__numbers{
     font-size: 9rem;
@@ -98,7 +97,7 @@ body {
 @media screen and (min-width: 1024px){
   .countdown__numbers,
   .countdown__text{
-    grid-template-columns: repeat(4, 180px);
+    grid-template-columns: repeat(4, 210px);
   }
   .countdown__numbers{
     font-size: 12rem;
