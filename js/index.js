@@ -7,7 +7,7 @@ const $minutos = document.querySelector(".count__minutos");
 const $segundos = document.querySelector(".count__segundos");
 
 
-const fechaFinal = new Date("Aug 20 2031");
+const fechaFinal = new Date("Nov 17 2027");
 
 interval = setInterval(()=>{
   let fechaActual = new Date();
